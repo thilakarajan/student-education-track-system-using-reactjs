@@ -40,9 +40,9 @@ const LeftNav = () => {
         </div>
       </div>
       <div className="options">
-        <IoIosHelpCircle className='option'/>
-        <IoIosSettings className='option'/>
-        <BsBalloonHeartFill className='option'/>
+        <IoIosHelpCircle className="option" />
+        <IoIosSettings className="option" />
+        <BsBalloonHeartFill className="option" />
       </div>
     </div>
   )

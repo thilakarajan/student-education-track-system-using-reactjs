@@ -1,44 +1,47 @@
-.left-nav{
-    background-color: darkblue;
-    width: 15%;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    bottom: 0px;
+.left-nav {
+  background-color: darkblue;
+  width: 15%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  .left-nav__logo {
+    img {
+      width: 200px;
+      height: 200px;
+    }
+  }
+  .sections {
+    .student,
+    .financial,
+    .quality,
+    .report,
+    .attendance {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    p {
+      color: #fff;
+    }
+    .icon {
+      color: #fff;
+      font-size: 80px;
+      padding: 10px;
+    }
+  }
+  .options {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    width: 100%;
     justify-content: space-between;
-    .left-nav__logo{
-        img{
-            width: 200px;
-            height: 200px;
-        }
+    .option {
+      font-size: 30px;
+      color: #fff;
     }
-    .sections{
-        .student,.financial,.quality,.report,.attendance{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-        p{
-            color: #fff;
-        }
-        .icon{
-            color: #fff;
-            font-size: 80px;
-            padding: 10px;
-        }
-    }
-    .options{
-        display: flex;
-        width: 100%;
-        justify-content: space-between;
-        .option{
-            font-size: 30px;
-            color: #fff;
-
-        }
-        padding: 20px;
-    }
+    padding: 20px;
+  }
 }
