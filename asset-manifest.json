@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/student-education-track-system-using-reactjs/static/css/main.ccaf4b13.css",
+    "main.css": "/student-education-track-system-using-reactjs/static/css/main.0b7917eb.css",
     "main.js": "/student-education-track-system-using-reactjs/static/js/main.210e1f0f.js",
     "static/media/Life_duty-removebg-preview.png": "/student-education-track-system-using-reactjs/static/media/Life_duty-removebg-preview.1837105c0dedff4d77d6.png",
     "index.html": "/student-education-track-system-using-reactjs/index.html",
-    "main.ccaf4b13.css.map": "/student-education-track-system-using-reactjs/static/css/main.ccaf4b13.css.map",
+    "main.0b7917eb.css.map": "/student-education-track-system-using-reactjs/static/css/main.0b7917eb.css.map",
     "main.210e1f0f.js.map": "/student-education-track-system-using-reactjs/static/js/main.210e1f0f.js.map"
   },
   "entrypoints": [
-    "static/css/main.ccaf4b13.css",
+    "static/css/main.0b7917eb.css",
     "static/js/main.210e1f0f.js"
   ]
 }
